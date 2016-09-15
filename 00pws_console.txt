@@ -1,0 +1,182 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for it.luigibennardis:00-bookABattery_SERVICE:jar:1.0.0.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.springframework.boot:spring-boot-maven-plugin @ line 165, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building 00-bookABattery_SERVICE 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> spring-boot-maven-plugin:1.3.0.RELEASE:run (default-cli) > test-compile @ 00-bookABattery_SERVICE >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ 00-bookABattery_SERVICE ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 12 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ 00-bookABattery_SERVICE ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 12 source files to C:\development\microS_code2016_serviceRegistryDiscovery\00PWS_bookABattery_SERVICE\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ 00-bookABattery_SERVICE ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\development\microS_code2016_serviceRegistryDiscovery\00PWS_bookABattery_SERVICE\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ 00-bookABattery_SERVICE ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] <<< spring-boot-maven-plugin:1.3.0.RELEASE:run (default-cli) < test-compile @ 00-bookABattery_SERVICE <<<
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:1.3.0.RELEASE:run (default-cli) @ 00-bookABattery_SERVICE ---
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.3.0.RELEASE)
+
+TomcatEmbeddedServletContainer: Tomcat initialized with port(s): 7111 (http)
+StandardService: Starting service Tomcat
+StandardEngine: Starting Servlet Engine: Apache Tomcat/8.0.28
+
+VersionPrinter: Flyway 3.2.1 by Boxfuse
+DbSupportFactory: Database: jdbc:mysql://localhost/bookabattery_db_pws (MySQL 5.6)
+DbValidate: Validated 7 migrations (execution time 00:00.016s)
+MetaDataTableImpl: Creating Metadata table: `bookabattery_db_pws`.`schema_version`
+DbMigrate: Current version of schema `bookabattery_db_pws`: << Empty Schema >>
+DbMigrate: Migrating schema `bookabattery_db_pws` to version 1 - usersDDL
+DbMigrate: Migrating schema `bookabattery_db_pws` to version 2 - batteryInventoryDDL
+DbMigrate: Migrating schema `bookabattery_db_pws` to version 3 - usersDML
+DbMigrate: Migrating schema `bookabattery_db_pws` to version 4 - batteryInventoryDML
+DbMigrate: Migrating schema `bookabattery_db_pws` to version 5 - stationAddressDDL
+DbMigrate: Migrating schema `bookabattery_db_pws` to version 6 - stationAddressDML
+DbMigrate: Migrating schema `bookabattery_db_pws` to version 7 - bookingInfoDDL
+DbMigrate: Successfully applied 7 migrations to schema `bookabattery_db_pws` (execution time 00:03.278s).
+
+
+
+
+
+INFO [localhost-startStop-1] --- LocalContainerEntityManagerFactoryBean: Building JPA container EntityManagerFactory for persistence unit 'default'
+INFO [localhost-startStop-1] --- LogHelper: HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2016-09-15 18:42:13.406] boot - 1608  INFO [localhost-startStop-1] --- Version: HHH000412: Hibernate Core {4.3.11.Final}
+[2016-09-15 18:42:13.406] boot - 1608  INFO [localhost-startStop-1] --- Environment: HHH000206: hibernate.properties not found
+[2016-09-15 18:42:13.406] boot - 1608  INFO [localhost-startStop-1] --- Environment: HHH000021: Bytecode provider name : javassist
+[2016-09-15 18:42:13.672] boot - 1608  INFO [localhost-startStop-1] --- Version: HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+[2016-09-15 18:42:13.750] boot - 1608  INFO [localhost-startStop-1] --- Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2016-09-15 18:42:14.031] boot - 1608  INFO [localhost-startStop-1] --- ASTQueryTranslatorFactory: HHH000397: Using ASTQueryTranslatorFactory
+[2016-09-15 18:42:15.748] boot - 1608  INFO [localhost-startStop-1] --- PropertiesFactoryBean: Loading properties file from class path resource [rest-default-messages.properties]
+[2016-09-15 18:42:16.560] boot - 1608  INFO [localhost-startStop-1] --- ServletRegistrationBean: Mapping servlet: 'dispatcherServlet' to [/]
+[2016-09-15 18:42:16.560] boot - 1608  INFO [localhost-startStop-1] --- ServletRegistrationBean: Mapping servlet: 'webServlet' to [/h2-console/*]
+[2016-09-15 18:42:16.560] boot - 1608  INFO [localhost-startStop-1] --- FilterRegistrationBean: Mapping filter: 'metricFilter' to: [/*]
+[2016-09-15 18:42:16.560] boot - 1608  INFO [localhost-startStop-1] --- FilterRegistrationBean: Mapping filter: 'characterEncodingFilter' to: [/*]
+[2016-09-15 18:42:16.560] boot - 1608  INFO [localhost-startStop-1] --- FilterRegistrationBean: Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[2016-09-15 18:42:16.560] boot - 1608  INFO [localhost-startStop-1] --- FilterRegistrationBean: Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[2016-09-15 18:42:16.560] boot - 1608  INFO [localhost-startStop-1] --- FilterRegistrationBean: Mapping filter: 'requestContextFilter' to: [/*]
+[2016-09-15 18:42:16.560] boot - 1608  INFO [localhost-startStop-1] --- FilterRegistrationBean: Mapping filter: 'webRequestLoggingFilter' to: [/*]
+[2016-09-15 18:42:16.560] boot - 1608  INFO [localhost-startStop-1] --- FilterRegistrationBean: Mapping filter: 'applicationContextIdFilter' to: [/*]
+[2016-09-15 18:42:16.919] boot - 1608  INFO [main] --- RequestMappingHandlerAdapter: Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@9fba36: startup date [Thu Sep 15 18:42:06 CEST 2016]; root of context hierarchy
+[2016-09-15 18:42:16.919] boot - 1608  INFO [main] --- RequestMappingHandlerAdapter: Detected ResponseBodyAdvice bean in org.springframework.boot.actuate.autoconfigure.EndpointWebMvcHypermediaManagementContextConfiguration$MvcEndpointAdvice
+[2016-09-15 18:42:16.919] boot - 1608  INFO [main] --- RequestMappingHandlerAdapter: Detected ResponseBodyAdvice bean in org.springframework.boot.actuate.autoconfigure.EndpointWebMvcHypermediaManagementContextConfiguration$ActuatorEndpointLinksAdvice
+
+
+RequestMappingHandlerMapping: Mapped "{[/bookABattery/list]}" onto public java.util.List<it.luigibennardis.microservice.domain.Booking> it.luigibennardis.microservice.web.BookABatteryController.listaPrenotazioni()
+RequestMappingHandlerMapping: Mapped "{[/bookABattery/addBooking/{stazione}/{batteria}/{citta}/{latitudine}/{longitudine}]}" onto public it.luigibennardis.microservice.domain.Booking it.luigibennardis.microservice.web.BookABatteryController.addBook(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+RequestMappingHandlerMapping: Mapped "{[/stationAddresses],methods=[GET]}" onto org.springframework.http.ResponseEntity<java.util.List<it.luigibennardis.microservice.domain.StationAddress>> it.luigibennardis.microservice.web.UsersController.listaIndirizzi()
+RequestMappingHandlerMapping: Mapped "{[/findNearestStation/{latitudine}/{longitudine}/{distanza}],methods=[GET]}" onto org.springframework.http.ResponseEntity<java.util.List<it.luigibennardis.microservice.domain.StationAddress>> it.luigibennardis.microservice.web.UsersController.trovaStazionepiuVicina(java.lang.String,java.lang.String,java.lang.String)
+
+
+
+
+
+
+[2016-09-15 18:42:17.044] boot - 1608  INFO [main] --- SimpleUrlHandlerMapping: Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2016-09-15 18:42:17.044] boot - 1608  INFO [main] --- SimpleUrlHandlerMapping: Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2016-09-15 18:42:17.075] boot - 1608  INFO [main] --- ExceptionHandlerExceptionResolver: Detected @ExceptionHandler methods in repositoryRestExceptionHandler
+[2016-09-15 18:42:17.075] boot - 1608  INFO [main] --- ExceptionHandlerExceptionResolver: Detected ResponseBodyAdvice implementation in org.springframework.boot.actuate.autoconfigure.EndpointWebMvcHypermediaManagementContextConfiguration$MvcEndpointAdvice
+[2016-09-15 18:42:17.075] boot - 1608  INFO [main] --- ExceptionHandlerExceptionResolver: Detected ResponseBodyAdvice implementation in org.springframework.boot.actuate.autoconfigure.EndpointWebMvcHypermediaManagementContextConfiguration$ActuatorEndpointLinksAdvice
+[2016-09-15 18:42:17.091] boot - 1608  INFO [main] --- SimpleUrlHandlerMapping: Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[2016-09-15 18:42:17.340] boot - 1608  INFO [main] --- PropertiesFactoryBean: Loading properties file from URL [jar:file:/D:/MavenRepo/org/springframework/integration/spring-integration-core/4.2.1.RELEASE/spring-integration-core-4.2.1.RELEASE.jar!/META-INF/spring.integration.default.properties]
+[2016-09-15 18:42:17.356] boot - 1608  INFO [main] --- ThreadPoolTaskScheduler: Initializing ExecutorService  'taskScheduler'
+[2016-09-15 18:42:17.621] boot - 1608  INFO [main] --- RepositoryRestHandlerAdapter: Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@9fba36: startup date [Thu Sep 15 18:42:06 CEST 2016]; root of context hierarchy
+[2016-09-15 18:42:17.621] boot - 1608  INFO [main] --- RepositoryRestHandlerAdapter: Detected ResponseBodyAdvice bean in org.springframework.boot.actuate.autoconfigure.EndpointWebMvcHypermediaManagementContextConfiguration$MvcEndpointAdvice
+[2016-09-15 18:42:17.621] boot - 1608  INFO [main] --- RepositoryRestHandlerAdapter: Detected ResponseBodyAdvice bean in org.springframework.boot.actuate.autoconfigure.EndpointWebMvcHypermediaManagementContextConfiguration$ActuatorEndpointLinksAdvice
+[2016-09-15 18:42:17.637] boot - 1608  INFO [main] --- RepositoryRestHandlerMapping: Mapped "{[/{repository}/{id}],methods=[GET],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<org.springframework.hateoas.Resource<?>> org.springframework.data.rest.webmvc.RepositoryEntityController.getItemResource(org.springframework.data.rest.webmvc.RootResourceInformation,java.io.Serializable,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler,org.springframework.util.MultiValueMap<java.lang.String, java.lang.String>) throws org.springframework.web.HttpRequestMethodNotSupportedException
+[2016-09-15 18:42:17.637] boot - 1608  INFO [main] --- RepositoryRestHandlerMapping: Mapped "{[/{repository}/{id}],methods=[PUT],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<? extends org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.RepositoryEntityController.putItemResource(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.data.rest.webmvc.PersistentEntityResource,java.io.Serializable,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler,org.springframework.data.rest.webmvc.support.ETag,java.lang.String) throws org.springframework.web.HttpRequestMethodNotSupportedException
+[2016-09-15 18:42:17.637] boot - 1608  INFO [main] --- RepositoryRestHandlerMapping: Mapped "{[/{repository}/{id}],methods=[PATCH],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.RepositoryEntityController.patchItemResource(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.data.rest.webmvc.PersistentEntityResource,java.io.Serializable,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler,org.springframework.data.rest.webmvc.support.ETag,java.lang.String) throws org.springframework.web.HttpRequestMethodNotSupportedException,org.springframework.data.rest.webmvc.ResourceNotFoundException
+[2016-09-15 18:42:17.637] boot - 1608  INFO [main] --- RepositoryRestHandlerMapping: Mapped "{[/{repository}/{id}],methods=[DELETE],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.data.rest.webmvc.RepositoryEntityController.deleteItemResource(org.springframework.data.rest.webmvc.RootResourceInformation,java.io.Serializable,org.springframework.data.rest.webmvc.support.ETag) throws org.springframework.data.rest.webmvc.ResourceNotFoundException,org.springframework.web.HttpRequestMethodNotSupportedException
+[2016-09-15 18:42:17.637] boot - 1608  INFO [main] --- RepositoryRestHandlerMapping: Mapped "{[/{repository}],methods=[POST],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.RepositoryEntityController.postCollectionResource(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.data.rest.webmvc.PersistentEntityResource,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler,java.lang.String) throws org.springframework.web.HttpRequestMethodNotSupportedException
+[2016-09-15 18:42:17.637] boot - 1608  INFO [main] --- RepositoryRestHandlerMapping: Mapped "{[/{repository}],methods=[HEAD],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.data.rest.webmvc.RepositoryEntityController.headCollectionResource(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.data.rest.webmvc.support.DefaultedPageable) throws org.springframework.web.HttpRequestMethodNotSupportedException
+[2016-09-15 18:42:17.637] boot - 1608  INFO [main] --- RepositoryRestHandlerMapping: Mapped "{[/{repository}],methods=[GET],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.hateoas.Resources<?> org.springframework.data.rest.webmvc.RepositoryEntityController.getCollectionResource(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.data.rest.webmvc.support.DefaultedPageable,org.springframework.data.domain.Sort,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler) throws org.springframework.data.rest.webmvc.ResourceNotFoundException,org.springframework.web.HttpRequestMethodNotSupportedException
+[2016-09-15 18:42:17.637] boot - 1608  INFO [main] --- RepositoryRestHandlerMapping: Mapped "{[/{repository}],methods=[GET],produces=[application/x-spring-data-compact+json || text/uri-list]}" onto public org.springframework.hateoas.Resources<?> org.springframework.data.rest.webmvc.RepositoryEntityController.getCollectionResourceCompact(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.data.rest.webmvc.support.DefaultedPageable,org.springframework.data.domain.Sort,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler) throws org.springframework.data.rest.webmvc.ResourceNotFoundException,org.springframework.web.HttpRequestMethodNotSupportedException
+[2016-09-15 18:42:17.637] boot - 1608  INFO [main] --- RepositoryRestHandlerMapping: Mapped "{[/{repository}/{id}],methods=[OPTIONS],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.data.rest.webmvc.RepositoryEntityController.optionsForItemResource(org.springframework.data.rest.webmvc.RootResourceInformation)
+[2016-09-15 18:42:17.637] boot - 1608  INFO [main] --- RepositoryRestHandlerMapping: Mapped "{[/{repository}/{id}],methods=[HEAD],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.data.rest.webmvc.RepositoryEntityController.headForItemResource(org.springframework.data.rest.webmvc.RootResourceInformation,java.io.Serializable,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler) throws org.springframework.web.HttpRequestMethodNotSupportedException
+[2016-09-15 18:42:17.637] boot - 1608  INFO [main] --- RepositoryRestHandlerMapping: Mapped "{[/{repository}],methods=[OPTIONS],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.data.rest.webmvc.RepositoryEntityController.optionsForCollectionResource(org.springframework.data.rest.webmvc.RootResourceInformation)
+[2016-09-15 18:42:17.637] boot - 1608  INFO [main] --- RepositoryRestHandlerMapping: Mapped "{[/ || ],methods=[HEAD],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.data.rest.webmvc.RepositoryController.headForRepositories()
+[2016-09-15 18:42:17.637] boot - 1608  INFO [main] --- RepositoryRestHandlerMapping: Mapped "{[/ || ],methods=[GET],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.HttpEntity<org.springframework.data.rest.webmvc.RepositoryLinksResource> org.springframework.data.rest.webmvc.RepositoryController.listRepositories()
+[2016-09-15 18:42:17.637] boot - 1608  INFO [main] --- RepositoryRestHandlerMapping: Mapped "{[/ || ],methods=[OPTIONS],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.HttpEntity<?> org.springframework.data.rest.webmvc.RepositoryController.optionsForRepositories()
+[2016-09-15 18:42:17.637] boot - 1608  INFO [main] --- RepositoryRestHandlerMapping: Mapped "{[/{repository}/{id}/{property}],methods=[PATCH || PUT || POST],consumes=[application/json || application/x-spring-data-compact+json || text/uri-list],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<? extends org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.RepositoryPropertyReferenceController.createPropertyReference(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.http.HttpMethod,org.springframework.hateoas.Resources<java.lang.Object>,java.io.Serializable,java.lang.String) throws java.lang.Exception
+[2016-09-15 18:42:17.637] boot - 1608  INFO [main] --- RepositoryRestHandlerMapping: Mapped "{[/{repository}/{id}/{property}/{propertyId}],methods=[DELETE],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.RepositoryPropertyReferenceController.deletePropertyReferenceId(org.springframework.data.rest.webmvc.RootResourceInformation,java.io.Serializable,java.lang.String,java.lang.String) throws java.lang.Exception
+[2016-09-15 18:42:17.637] boot - 1608  INFO [main] --- RepositoryRestHandlerMapping: Mapped "{[/{repository}/{id}/{property}],methods=[GET],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.RepositoryPropertyReferenceController.followPropertyReference(org.springframework.data.rest.webmvc.RootResourceInformation,java.io.Serializable,java.lang.String,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler) throws java.lang.Exception
+[2016-09-15 18:42:17.637] boot - 1608  INFO [main] --- RepositoryRestHandlerMapping: Mapped "{[/{repository}/{id}/{property}/{propertyId}],methods=[GET],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.RepositoryPropertyReferenceController.followPropertyReference(org.springframework.data.rest.webmvc.RootResourceInformation,java.io.Serializable,java.lang.String,java.lang.String,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler) throws java.lang.Exception
+[2016-09-15 18:42:17.637] boot - 1608  INFO [main] --- RepositoryRestHandlerMapping: Mapped "{[/{repository}/{id}/{property}],methods=[DELETE],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<? extends org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.RepositoryPropertyReferenceController.deletePropertyReference(org.springframework.data.rest.webmvc.RootResourceInformation,java.io.Serializable,java.lang.String) throws java.lang.Exception
+[2016-09-15 18:42:17.637] boot - 1608  INFO [main] --- RepositoryRestHandlerMapping: Mapped "{[/{repository}/{id}/{property}],methods=[GET],produces=[application/x-spring-data-compact+json || text/uri-list]}" onto public org.springframework.http.ResponseEntity<org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.RepositoryPropertyReferenceController.followPropertyReferenceCompact(org.springframework.data.rest.webmvc.RootResourceInformation,java.io.Serializable,java.lang.String,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler) throws java.lang.Exception
+[2016-09-15 18:42:17.637] boot - 1608  INFO [main] --- RepositoryRestHandlerMapping: Mapped "{[/{repository}/search],methods=[HEAD],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.HttpEntity<?> org.springframework.data.rest.webmvc.RepositorySearchController.headForSearches(org.springframework.data.rest.webmvc.RootResourceInformation)
+[2016-09-15 18:42:17.637] boot - 1608  INFO [main] --- RepositoryRestHandlerMapping: Mapped "{[/{repository}/search],methods=[GET],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.data.rest.webmvc.RepositorySearchesResource org.springframework.data.rest.webmvc.RepositorySearchController.listSearches(org.springframework.data.rest.webmvc.RootResourceInformation)
+[2016-09-15 18:42:17.637] boot - 1608  INFO [main] --- RepositoryRestHandlerMapping: Mapped "{[/{repository}/search/{search}],methods=[GET],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> org.springframework.data.rest.webmvc.RepositorySearchController.executeSearch(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.util.MultiValueMap<java.lang.String, java.lang.Object>,java.lang.String,org.springframework.data.rest.webmvc.support.DefaultedPageable,org.springframework.data.domain.Sort,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler)
+[2016-09-15 18:42:17.637] boot - 1608  INFO [main] --- RepositoryRestHandlerMapping: Mapped "{[/{repository}/search/{search}],methods=[GET],produces=[application/x-spring-data-compact+json]}" onto public org.springframework.hateoas.ResourceSupport org.springframework.data.rest.webmvc.RepositorySearchController.executeSearchCompact(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.util.MultiValueMap<java.lang.String, java.lang.Object>,java.lang.String,java.lang.String,org.springframework.data.rest.webmvc.support.DefaultedPageable,org.springframework.data.domain.Sort,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler)
+[2016-09-15 18:42:17.637] boot - 1608  INFO [main] --- RepositoryRestHandlerMapping: Mapped "{[/{repository}/search/{search}],methods=[OPTIONS],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> org.springframework.data.rest.webmvc.RepositorySearchController.optionsForSearch(org.springframework.data.rest.webmvc.RootResourceInformation,java.lang.String)
+[2016-09-15 18:42:17.637] boot - 1608  INFO [main] --- RepositoryRestHandlerMapping: Mapped "{[/{repository}/search/{search}],methods=[HEAD],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> org.springframework.data.rest.webmvc.RepositorySearchController.headForSearch(org.springframework.data.rest.webmvc.RootResourceInformation,java.lang.String)
+[2016-09-15 18:42:17.637] boot - 1608  INFO [main] --- RepositoryRestHandlerMapping: Mapped "{[/{repository}/search],methods=[OPTIONS],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}" onto public org.springframework.http.HttpEntity<?> org.springframework.data.rest.webmvc.RepositorySearchController.optionsForSearches(org.springframework.data.rest.webmvc.RootResourceInformation)
+[2016-09-15 18:42:17.653] boot - 1608  INFO [main] --- BasePathAwareHandlerMapping: Mapped "{[/profile],methods=[OPTIONS]}" onto public org.springframework.http.HttpEntity<?> org.springframework.data.rest.webmvc.ProfileController.profileOptions()
+[2016-09-15 18:42:17.653] boot - 1608  INFO [main] --- BasePathAwareHandlerMapping: Mapped "{[/profile],methods=[GET]}" onto org.springframework.http.HttpEntity<org.springframework.hateoas.ResourceSupport> org.springframework.data.rest.webmvc.ProfileController.listAllFormsOfMetadata()
+[2016-09-15 18:42:17.653] boot - 1608  INFO [main] --- BasePathAwareHandlerMapping: Mapped "{[/profile/{repository}],methods=[GET],produces=[application/schema+json]}" onto public org.springframework.http.HttpEntity<org.springframework.data.rest.webmvc.json.JsonSchema> org.springframework.data.rest.webmvc.RepositorySchemaController.schema(org.springframework.data.rest.webmvc.RootResourceInformation)
+[2016-09-15 18:42:17.653] boot - 1608  INFO [main] --- BasePathAwareHandlerMapping: Mapped "{[/profile/{repository}],methods=[GET],produces=[application/alps+json || */*]}" onto org.springframework.http.HttpEntity<org.springframework.data.rest.webmvc.RootResourceInformation> org.springframework.data.rest.webmvc.alps.AlpsController.descriptor(org.springframework.data.rest.webmvc.RootResourceInformation)
+[2016-09-15 18:42:17.653] boot - 1608  INFO [main] --- BasePathAwareHandlerMapping: Mapped "{[/profile/{repository}],methods=[OPTIONS],produces=[application/alps+json]}" onto org.springframework.http.HttpEntity<?> org.springframework.data.rest.webmvc.alps.AlpsController.alpsOptions()
+[2016-09-15 18:42:17.668] boot - 1608  INFO [main] --- ExceptionHandlerExceptionResolver: Detected @ExceptionHandler methods in repositoryRestExceptionHandler
+[2016-09-15 18:42:17.668] boot - 1608  INFO [main] --- ExceptionHandlerExceptionResolver: Detected ResponseBodyAdvice implementation in org.springframework.boot.actuate.autoconfigure.EndpointWebMvcHypermediaManagementContextConfiguration$MvcEndpointAdvice
+[2016-09-15 18:42:17.668] boot - 1608  INFO [main] --- ExceptionHandlerExceptionResolver: Detected ResponseBodyAdvice implementation in org.springframework.boot.actuate.autoconfigure.EndpointWebMvcHypermediaManagementContextConfiguration$ActuatorEndpointLinksAdvice
+
+
+
+
+EndpointHandlerMapping: Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+EndpointHandlerMapping: Mapped "{[/flyway || /flyway.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+EndpointHandlerMapping: Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+EndpointHandlerMapping: Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+EndpointHandlerMapping: Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+EndpointHandlerMapping: Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+EndpointHandlerMapping: Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+EndpointHandlerMapping: Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+EndpointHandlerMapping: Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+EndpointHandlerMapping: Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+EndpointHandlerMapping: Mapped "{[/actuator || /actuator.json],produces=[application/json]}" onto public org.springframework.hateoas.ResourceSupport org.springframework.boot.actuate.endpoint.mvc.HalJsonMvcEndpoint.links()
+EndpointHandlerMapping: Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+EndpointHandlerMapping: Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+EndpointHandlerMapping: Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+AnnotationMBeanExporter: Registering beans for JMX exposure on startup
+DefaultLifecycleProcessor: Starting beans in phase 0
+EventDrivenConsumer: Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+PublishSubscribeChannel: Channel '00-bookABattery_SERVICE:localmysql:7111.errorChannel' has 1 subscriber(s).
+EventDrivenConsumer: started _org.springframework.integration.errorLogger
+
+
+
+[2016-09-15 18:42:18.105] boot - 1608  INFO [main] --- TomcatEmbeddedServletContainer: Tomcat started on port(s): 7111 (http)
+
+
+  cloud.services.mySqlBackingServices.connection.jdbcurl JDBC URL= 
+
+ the DATASOURCE URL=jdbc:mysql://localhost/bookabattery_db_pws.
+
+
+[2016-09-15 18:42:18.105] boot - 1608  INFO [main] --- Application: Started Application in 12.083 seconds (JVM running for 16.066)
