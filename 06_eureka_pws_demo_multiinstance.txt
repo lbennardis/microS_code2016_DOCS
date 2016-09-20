@@ -201,9 +201,15 @@
 2016-09-19T22:27:41.210+02:00 [APP/0] [OUT] 2016-09-19 20:27:41.210 INFO 17 --- [ main] o.s.j.e.a.AnnotationMBeanExporter : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
 2016-09-19T22:27:41.230+02:00 [APP/0] [OUT] 2016-09-19 20:27:41.230 INFO 17 --- [ main] o.s.j.e.a.AnnotationMBeanExporter : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=35f983a6,type=ConfigurationPropertiesRebinder]
 2016-09-19T22:27:41.241+02:00 [APP/0] [OUT] 2016-09-19 20:27:41.240 INFO 17 --- [ main] o.s.j.e.a.AnnotationMBeanExporter : Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+
 2016-09-19T22:27:41.739+02:00 [APP/0] [OUT] 2016-09-19 20:27:41.738 INFO 17 --- [ main] o.s.c.support.DefaultLifecycleProcessor : Starting beans in phase 0
 2016-09-19T22:27:41.755+02:00 [APP/0] [OUT] 2016-09-19 20:27:41.755 INFO 17 --- [ main] o.s.c.n.eureka.InstanceInfoFactory : Setting initial instance status as: STARTING
 2016-09-19T22:27:43.239+02:00 [APP/0] [OUT] 2016-09-19 20:27:43.238 INFO 17 --- [ main] c.n.e.EurekaDiscoveryClientConfiguration : Registering application bookABatterySERVICE4EUREKA with eureka with status UP
+
+
+
+
+
 2016-09-19T22:27:43.432+02:00 [APP/0] [OUT] 2016-09-19 20:27:43.431 INFO 17 --- [ main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
 2016-09-19T22:27:43.433+02:00 [APP/0] [OUT] 2016-09-19 20:27:43.433 INFO 17 --- [ main] c.n.e.EurekaDiscoveryClientConfiguration : Updating port to 8080
 2016-09-19T22:27:43.439+02:00 [APP/0] [OUT] 2016-09-19 20:27:43.438 INFO 17 --- [ main] i.l.microservice.Application : Started Application in 18.953 seconds (JVM running for 20.013)
@@ -225,16 +231,57 @@
 2016-09-19T22:28:48.569+02:00 [APP/0] [OUT] *********** CALLED BOOKING LIST ***********
 2016-09-19T22:28:48.569+02:00 [APP/0] [OUT]
 2016-09-19T22:28:48.569+02:00 [APP/0] [OUT] ******************************************************************
-2016-09-19T22:28:48.694+02:00 [RTR/3] [OUT] 06-bookABatterySERVICE4EUREKA.cfapps.io - [19/09/2016:20:28:48.582 +0000] "GET /bookABattery/list HTTP/1.1" 200 0 1485 "-" "Java/1.8.0_101" 10.10.66.180:2509 x_forwarded_for:"54.86.233.33" x_forwarded_proto:"http" vcap_request_id:cae29757-12e9-4d16-44e8-e350b0f0cf14 response_time:0.111964669 app_id:e33d3d68-2efb-41db-8ac5-d61d43c4af3f index:0
-2016-09-19T22:28:49.007+02:00 [APP/0] [OUT] *********** CALLED BOOKING LIST ***********
-2016-09-19T22:28:49.007+02:00 [APP/0] [OUT] 2016.09.19.20.28.49
-2016-09-19T22:28:49.007+02:00 [APP/0] [OUT]
-2016-09-19T22:28:49.007+02:00 [APP/0] [OUT] ******************************************************************
-2016-09-19T22:28:49.017+02:00 [RTR/0] [OUT] 06-bookABatterySERVICE4EUREKA.cfapps.io - [19/09/2016:20:28:48.994 +0000] "GET /bookABattery/list HTTP/1.1" 200 0 1485 "-" "Java/1.8.0_101" 10.10.66.180:41582 x_forwarded_for:"54.86.233.33" x_forwarded_proto:"http" vcap_request_id:46627fc3-6a8a-428c-7c61-eadb49e5b9f9 response_time:0.021912925 app_id:e33d3d68-2efb-41db-8ac5-d61d43c4af3f index:0
-2016-09-19T22:29:02.529+02:00 [APP/0] [OUT] 2016.09.19.20.29.02
-2016-09-19T22:29:02.530+02:00 [APP/0] [OUT] ******************************************************************
-2016-09-19T22:29:02.530+02:00 [APP/0] [OUT] *********** CALLED BOOKING LIST ***********
-2016-09-19T22:29:02.530+02:00 [APP/0] [OUT]
+
+
+
+
+
+[APP/0] [OUT] 2016-09-19 20:27:43.431 INFO 17 --- [ main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+[APP/0] [OUT] 2016-09-19 20:27:43.433 INFO 17 --- [ main] c.n.e.EurekaDiscoveryClientConfiguration : Updating port to 8080
+[APP/0] [OUT] 2016-09-19 20:27:43.438 INFO 17 --- [ main] i.l.microservice.Application : Started Application in 18.953 seconds (JVM running for 20.013)
+
+
+[APP/0] [OUT] 2016.10.19.20.28.45
+[APP/0] [OUT] ******************************************************************
+[APP/0] [OUT] *********** CALLED BOOKING LIST ***********
+[APP/0] [OUT] ******************************************************************
+
+
+[RTR/2] [OUT] 06-bookABatterySERVICE4EUREKA.cfapps.io - [19/09/2016:20:28:45.667 +0000] 
+	"GET /bookABattery/list HTTP/1.1" 200 0 1485 "-" "Java/1.8.0_101" 10.10.66.180:64424 
+	x_forwarded_for:"54.86.233.33" 
+	x_forwarded_proto:"http" 
+	vcap_request_id:b0cffe94-a597-42fe-500d-4e13585f8677 
+	response_time:0.299727231 
+	app_id:e33d3d68-2efb-41db-8ac5-d61d43c4af3f 
+	index:0 
+
+[APP/0] [OUT] 2016.10.19.20.28.50	
+[APP/0] [OUT] ******************************************************************
+[APP/0] [OUT] *********** CALLED BOOKING LIST ***********
+[APP/0] [OUT] ******************************************************************
+
+
+[RTR/3] [OUT] 06-bookABatterySERVICE4EUREKA.cfapps.io - [19/09/2016:20:28:47.969 +0000] 
+	"GET /bookABattery/list HTTP/1.1" 200 0 1485 "-" "Java/1.8.0_101" 10.10.66.180:2509 
+	x_forwarded_for:"54.86.233.33" 
+	x_forwarded_proto:"http" 
+	vcap_request_id:79983e85-23b2-4ff2-7cab-d008aee3e8dc 
+	response_time:0.021570021 
+	app_id:e33d3d68-2efb-41db-8ac5-d61d43c4af3f 
+	index:0
+	
+[APP/0] [OUT] 2016.10.19.20.28.55	
+[APP/0] [OUT] ******************************************************************
+[APP/0] [OUT] *********** CALLED BOOKING LIST ***********
+[APP/0] [OUT] ******************************************************************
+
+
+
+
+
+
+
 2016-09-19T22:29:02.572+02:00 [RTR/3] [OUT] 06-bookABatterySERVICE4EUREKA.cfapps.io - [19/09/2016:20:29:02.543 +0000] "GET /bookABattery/list HTTP/1.1" 200 0 1485 "-" "Java/1.8.0_101" 10.10.66.180:1819 x_forwarded_for:"54.86.233.33" x_forwarded_proto:"http" vcap_request_id:8ae4fe59-0827-4990-6a37-1d85d8cc7c5f response_time:0.028547685 app_id:e33d3d68-2efb-41db-8ac5-d61d43c4af3f index:0
 2016-09-19T22:29:03.069+02:00 [APP/0] [OUT] 2016.09.19.20.29.03
 2016-09-19T22:29:03.069+02:00 [APP/0] [OUT] ******************************************************************
@@ -272,10 +319,23 @@
 2016-09-19T22:29:28.023+02:00 [APP/0] [OUT] ******************************************************************
 2016-09-19T22:29:28.023+02:00 [APP/0] [OUT] 2016.09.19.20.29.28
 2016-09-19T22:29:28.188+02:00 [RTR/5] [OUT] 06-bookABatterySERVICE4EUREKA.cfapps.io - [19/09/2016:20:29:28.035 +0000] "GET /bookABattery/list HTTP/1.1" 200 0 1485 "-" "Java/1.8.0_101" 10.10.2.230:58905 x_forwarded_for:"54.86.233.33" x_forwarded_proto:"http" vcap_request_id:3af7460c-d7dd-427d-7afa-e7b66d019287 response_time:0.153470116 app_id:e33d3d68-2efb-41db-8ac5-d61d43c4af3f index:0
+
+
+
+
 2016-09-19T22:29:39.031+02:00 [API/3] [OUT] Updated app with guid e33d3d68-2efb-41db-8ac5-d61d43c4af3f ({"instances"=>2})
 2016-09-19T22:29:39.622+02:00 [CELL/1] [OUT] Creating container
 2016-09-19T22:29:40.061+02:00 [CELL/1] [OUT] Successfully created container
 2016-09-19T22:29:47.626+02:00 [CELL/1] [OUT] Starting health monitoring of container
+
+
+
+
+
+
+
+
+
 2016-09-19T22:29:48.272+02:00 [APP/1] [ERR] SLF4J: Class path contains multiple SLF4J bindings.
 2016-09-19T22:29:48.273+02:00 [APP/1] [ERR] SLF4J: Found binding in [jar:file:/home/vcap/app/BOOT-INF/lib/logback-classic-1.1.7.jar!/org/slf4j/impl/StaticLoggerBinder.class]
 2016-09-19T22:29:48.273+02:00 [APP/1] [ERR] SLF4J: Found binding in [jar:file:/home/vcap/app/BOOT-INF/lib/slf4j-log4j12-1.7.21.jar!/org/slf4j/impl/StaticLoggerBinder.class]
@@ -450,12 +510,24 @@
 2016-09-19T22:30:09.129+02:00 [APP/1] [OUT] 2016-09-19 20:30:09.129 INFO 16 --- [ main] o.s.j.e.a.AnnotationMBeanExporter : Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
 2016-09-19T22:30:09.516+02:00 [APP/1] [OUT] 2016-09-19 20:30:09.516 INFO 16 --- [ main] o.s.c.support.DefaultLifecycleProcessor : Starting beans in phase 0
 2016-09-19T22:30:09.526+02:00 [APP/1] [OUT] 2016-09-19 20:30:09.526 INFO 16 --- [ main] o.s.c.n.eureka.InstanceInfoFactory : Setting initial instance status as: STARTING
+
+
+
 2016-09-19T22:30:10.933+02:00 [APP/1] [OUT] 2016-09-19 20:30:10.932 INFO 16 --- [ main] c.n.e.EurekaDiscoveryClientConfiguration : Registering application bookABatterySERVICE4EUREKA with eureka with status UP
 2016-09-19T22:30:11.134+02:00 [APP/1] [OUT] 2016-09-19 20:30:11.131 INFO 16 --- [ main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
 2016-09-19T22:30:11.140+02:00 [APP/1] [OUT] 2016-09-19 20:30:11.140 INFO 16 --- [ main] c.n.e.EurekaDiscoveryClientConfiguration : Updating port to 8080
 2016-09-19T22:30:11.148+02:00 [APP/1] [OUT] 2016-09-19 20:30:11.148 INFO 16 --- [ main] i.l.microservice.Application : Started Application in 22.089 seconds (JVM running for 23.43)
-2016-09-19T22:30:11.207+02:00 [CELL/1] [OUT] Container became healthy
-2016-09-19T22:31:10.618+02:00 [APP/0] [OUT] ******************************************************************
+
+
+
+
+
+
+
+[OUT] 2016-09-19 20:30:10.932 INFO 16 --- [ main] c.n.e.EurekaDiscoveryClientConfiguration : Registering application bookABatterySERVICE4EUREKA with eureka with status UP
+[OUT] 2016-09-19 20:30:11.131 INFO 16 --- [ main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+[OUT] 2016-09-19 20:30:11.140 INFO 16 --- [ main] c.n.e.EurekaDiscoveryClientConfiguration : Updating port to 80802016-09-19T22:30:11.207+02:00 [CELL/1] [OUT] Container became healthy
+[OUT] 2016-09-19 20:30:11.148 INFO 16 --- [ main] i.l.microservice.Application : Started Application in 22.089 seconds (JVM running for 23.43)2016-09-19T22:31:10.618+02:00 [APP/0] [OUT] ******************************************************************
 2016-09-19T22:31:10.618+02:00 [APP/0] [OUT] *********** CALLED BOOKING LIST ***********
 2016-09-19T22:31:10.618+02:00 [APP/0] [OUT] 2016.09.19.20.31.10
 2016-09-19T22:31:10.619+02:00 [APP/0] [OUT]
@@ -463,6 +535,10 @@
 2016-09-19T22:31:11.545+02:00 [APP/0] [OUT] *********** CALLED BOOKING LIST ***********
 2016-09-19T22:31:11.545+02:00 [APP/0] [OUT]
 2016-09-19T22:31:11.545+02:00 [APP/0] [OUT] ******************************************************************
+
+
+
+
 2016-09-19T22:31:11.545+02:00 [APP/0] [OUT] 2016.09.19.20.31.11
 2016-09-19T22:31:11.551+02:00 [RTR/5] [OUT] 06-bookABatterySERVICE4EUREKA.cfapps.io - [19/09/2016:20:31:11.532 +0000] "GET /bookABattery/list HTTP/1.1" 200 0 1485 "-" "Java/1.8.0_101" 10.10.66.73:46321 x_forwarded_for:"54.86.233.33" x_forwarded_proto:"http" vcap_request_id:cb3223fa-8f6f-4632-6f53-beac0a67add3 response_time:0.018737228 app_id:e33d3d68-2efb-41db-8ac5-d61d43c4af3f index:0
 2016-09-19T22:31:12.080+02:00 [APP/1] [OUT] 2016-09-19 20:31:12.079 INFO 16 --- [nio-8080-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring FrameworkServlet 'dispatcherServlet'
